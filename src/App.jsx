@@ -27,7 +27,13 @@ function App() {
       <MainPagina/>
       <AsidePagina/>
       <FooterPagina termino={cierre}/>
-      <PanelPagina titulo={"Aviso Académico"}/>
+      <PanelPagina titulo={"Aviso Académico"}>
+        <ul>
+          <li>Taller de React</li>
+          <li>Presentación de proyectos</li>
+        </ul>
+
+      </PanelPagina>
     </>
   )
 }
